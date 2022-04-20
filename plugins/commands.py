@@ -20,11 +20,11 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🔥ႮᏢᎠᎪͲᎬՏ', url='https://t.me/mksupport1')
+                InlineKeyboardButton(' Uᴘᴅᴀᴛᴇs', url='https://t.me/thanimaibots')
             ],
             [
-                InlineKeyboardButton('ᎻᎬᏞᏢ', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton('ᏟᏞϴՏᎬ✗', callback_data="close_data"),
+                InlineKeyboardButton('Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('Cʟᴏsᴇ', callback_data="close_data"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -40,13 +40,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('ADD ME TO GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᏟϴᎷᎷᎪΝᎠՏ❓', callback_data='help'),
-            InlineKeyboardButton('ᎪᏴϴႮͲ🎀', callback_data='about')
+            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
             ],[
-            InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ🗂️', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 💖', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('Sᴇᴀʀᴄᕼ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/mksupport1'),
             ],[
             InlineKeyboardButton('ᏟᏞϴՏᎬ💤', callback_data='close_data')
         ]]
@@ -137,10 +137,10 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 🔥', url='https://t.me/mksupport1'),
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/thanimaisupport'),
                 ],
                 [
-                    InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/firstshowers')
+                    InlineKeyboardButton('𝐋𝐨𝐧𝐞𝐥𝐲𝐥𝐢𝐧𝐤𝐬𝐬', url=f'https://t.me/lonelylinkss')
                 ]
                 ]
             try:
@@ -240,10 +240,10 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 🔥', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/thanimaisupport'),
         ],
         [
-            InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/firstshowers')
+            InlineKeyboardButton('𝐋𝐨𝐧𝐞𝐥𝐲𝐥𝐢𝐧𝐤𝐬𝐬', url=f'https://t.me/lonelylinkss')
         ]
         ]
     await client.send_cached_media(
