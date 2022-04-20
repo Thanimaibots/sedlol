@@ -18,17 +18,23 @@ class Script(object):
 
     HELP_TXT = """𝙷𝙴𝚈 {},𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄 𝙵𝙾𝚁 𝚈𝙾𝚄:"""
 
-    ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
-➥ Cʀᴇᴀᴛᴏʀ: @Doctor6689
-➥  Hᴇʟᴘᴇʀ : ɴᴏ sɪɴɢʟᴇ ᴘᴇʀsᴏɴ ɴᴇᴇᴅ ᴛᴏ ʜᴇʟᴘ
-➥ Language: Eɴɢʟɪsʜ
-➥ Data Base: Pʀɪᴠᴀᴛᴇ
-➥ Bot Server: Pʀɪᴠᴀᴛᴇ
-➥ Build Status: v68.0.1 [ Beta ]"""
+    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+➢ 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫: <a href='https://t.me/sarbudeen786'>💔Lᴏɴᴇʟʏᴋiɴɢ💔</a>
+➢ 𝐌𝐲 𝐒𝐨𝐮𝐫𝐜𝐞: 𝖤𝗏𝖺 𝖬𝖺𝗋𝗂𝖺
+➢ 𝐌𝐲 𝐋𝐢𝐛𝐫𝐚𝐫𝐲: <a href='https://docs.pyrogram.org'>𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆</a>
+➢ 𝐌𝐲 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: <a herf='https://www.python.org'>𝖯𝗒𝗍𝗁𝗈𝗇3 </a>
+➢ 𝐌𝐲 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: <a href='https://cloud.mongodb.com'>𝖬𝗈𝗇𝗀𝗈 𝖣𝖡</a>
+➢ 𝐌𝐲 𝐒𝐞𝐫𝐯𝐞𝐫: <a href='https://www.heroku.com'>𝖧𝖾𝗋𝗈𝗄𝗎</a>
+➢ 𝐌𝐲 𝐔𝐩𝐝𝐚𝐭𝐞𝐬: <a href='https://t.me/thanimaibots'>Tᕼᴀɴʜᴍᴀʜ𝖡𝗈𝗍s</a>
+➢ 𝐌𝐲 𝐒𝐮𝐩𝐩𝐨𝐫𝐭: <a href='https://t.me/thanimaisupport'>Tᕼᴀɴʜᴍᴀʜ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍</a>
+➤ 𝙸𝚏 𝚢𝚘𝚞 𝚕𝚒𝚔𝚎 𝚝𝚑𝚒𝚜 𝚋𝚘𝚝 𝚙𝚕𝚎𝚊𝚜𝚎 𝚜𝚑𝚊𝚛𝚎 𝚊𝚗𝚍 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚞𝚜 ⚡
+"""
     RAJ_TXT = """4th MODULES
 """
     SOURCE_TXT = """<b>Source:</b>
-Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs."""
+- 𝐌𝐲 𝐬𝐨𝐮𝐫𝐜𝐞  𝐢𝐬 𝐚  𝐂𝐋𝐎𝐒𝐄𝐝 𝐩𝐫𝐨𝐣𝐞𝐜𝐭. 
+ <a href=https://t.me/thanimaisupport>𝐑𝐞𝐩𝐨𝐫𝐭 & 𝐛𝐮𝐠𝐬 </a>
+𝐎𝐰𝐧𝐞𝐫 : 💔𝐋𝐨𝐧𝐞𝐥𝐲 𝐤𝐢𝐧𝐠 💔."""
 
     S_TXT = """5TH Modules"""
 
