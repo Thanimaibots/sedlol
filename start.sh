@@ -1,6 +1,6 @@
 echo "Cloning Repo, Please Wait..."
-git clone -b master https://github.com/UNKNOWN8884/massilama.git /massilama
-cd /massilama
+git clone -b master https://github.com/Thanimaibots/sedlol.git /sedlol
+cd /sedlol
 echo "Installing Requirements..."
 pip3 install -U -r requirements.txt
 echo "Starting Bot, Please Wait..."
