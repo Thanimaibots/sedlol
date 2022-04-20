@@ -709,8 +709,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='b'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -730,8 +735,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='newdata'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.B_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -747,8 +757,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᏟᏞϴՏᎬ ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.ABOUT_TXT.format(temp.B_NAME),
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -782,8 +797,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='about'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.UNK_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -802,8 +822,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='c'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.NEWDATA_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -823,8 +848,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='d'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.C_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -844,8 +874,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='nest'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.C_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -865,8 +900,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='e'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.NEST_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -886,8 +926,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='help'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.E_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -897,8 +942,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.INS_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -919,8 +969,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.STI_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -941,8 +996,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.POK_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -952,8 +1012,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=script.IMAGE_TXT.format(temp.B_NAME),
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -963,8 +1028,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='s')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.RPE_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -974,8 +1044,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='c')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.TAL_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -985,8 +1060,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='newdata')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.ST_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -996,8 +1076,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        m=await query.message.reply_text("●••")
+        n=await m.edit("•●•")
+        o=await n.edit("••●")
+        await asyncio.sleep(1)
+        await o.delete()
         await query.message.edit_text(
-            text=Script.DISB_TXT,
+            text=script.HELP_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
