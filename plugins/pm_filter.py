@@ -347,12 +347,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('ՏႮᏢᏢϴᎡͲ 🔥', url='https://t.me/mksupport1')
+                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/thanimaisupport')
             ],
             [
-                InlineKeyboardButton('ҒᏆᎡՏͲ ՏᎻϴᏔᎬᎡՏ', url=f'https://t.me/firstshowers')
+                InlineKeyboardButton('𝐋𝐨𝐧𝐞𝐥𝐲𝐥𝐢𝐧𝐤𝐬𝐬', url=f'https://t.me/REQMOIVESS')
             ]
-            ]
+            
             
         try:
             if AUTH_CHANNEL and not await is_subscribed(client, query):
@@ -399,11 +399,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('support', url='https://t.me/mksupport1'),
-                InlineKeyboardButton('channel', url='https://t.me/mksupport1')
+                InlineKeyboardButton('support', url='https://t.me/thanimaisupport'),
+                InlineKeyboardButton('channel', url='https://t.me/Thanimaibots')
             ],
             [
-                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/mksupport1')
+                InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/Thanimaisupport')
             ]
             ]
         await query.answer()
