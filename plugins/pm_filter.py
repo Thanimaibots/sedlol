@@ -839,13 +839,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛᴀɢ ᴀʟʟ', callback_data='tal'),
             InlineKeyboardButton('Uʀʟ Sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
             ],[
-            InlineKeyboardButton('ฬเкเקє๔เค', callback_data='wiki'),
-            InlineKeyboardButton('ฬคllקคєקг', callback_data='wall'), 
+            InlineKeyboardButton('ᴡɪᴋɪ', callback_data='wiki'),
+            InlineKeyboardButton('ᴡᴀʟʟᴘᴀᴘᴇʀ', callback_data='wall'), 
             InlineKeyboardButton('ғʟᴏᴏᴅ', callback_data='flood'),
             ],[
-            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='newdata'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='newdata'),
             InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='auto_manual'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='d'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='d'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("●••")
@@ -869,9 +869,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢᴏᴏɢʟᴇ', callback_data='gog'),
             InlineKeyboardButton('ɢɪᴛʜᴜʙɪɴғᴏ', callback_data='gth'),  
             ],[
-            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='c'),                             
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='c'),                             
             InlineKeyboardButton('ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢ', callback_data='ad'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='nest'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='nest'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("●••")
@@ -895,9 +895,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games'),
             InlineKeyboardButton('Fᴜɴ', callback_data='memes'),        
             ],[
-            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='d'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='d'),
             InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='e'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='e'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("●••")
@@ -1041,7 +1041,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tal":
         buttons = [[
-            InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='c')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='c')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("●••")
