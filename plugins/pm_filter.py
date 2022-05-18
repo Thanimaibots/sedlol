@@ -680,7 +680,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴀɴɪᴍᴀᴛ', callback_data='anime'),
             InlineKeyboardButton('ᴅɪsᴀʙʟᴇ', callback_data='disb'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
+            InlineKeyboardButton('ɴᴇxᴛ', callback_data='a'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await query.message.reply_text("●••")
@@ -730,7 +730,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Pɪɴ', callback_data='pin'),
             InlineKeyboardButton('ʀᴇᴍᴏᴛᴇɢʀɪᴘ', callback_data='remote'),
             ],[
-            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='a'),
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='a'),
             InlineKeyboardButton('ʀᴇᴀᴄᴛ', callback_data='react'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='newdata'),
           ]]
