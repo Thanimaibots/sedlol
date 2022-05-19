@@ -653,8 +653,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('+ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ+', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('ᏟϴᎷᎷᎪΝᎠՏ❓', callback_data='help'),
-            InlineKeyboardButton('ᎪᏴϴႮͲ🎀', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ❓', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ🗂️', switch_inline_query_current_chat=''),
             InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 🎐', url='https://t.me/mksupport1'),
@@ -1469,7 +1469,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "paste":
         buttons = [[
-            InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='help'),
+            InlineKeyboardButton('ʙᴀᴄᴋᴋ', callback_data='help'),
             InlineKeyboardButton('Close ✗', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1481,7 +1481,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tgraph":
         buttons = [[
-            InlineKeyboardButton('« 🇧 🇦 🇨 🇰', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
